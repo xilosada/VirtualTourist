@@ -26,12 +26,13 @@
 		DC2D22081BF6242D00A152D2 /* MapViewConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D22071BF6242D00A152D2 /* MapViewConvenience.swift */; };
 		DC2D220C1BF6C4D400A152D2 /* FlickrApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D220B1BF6C4D400A152D2 /* FlickrApi.swift */; };
 		DC2D220E1BF6CCEF00A152D2 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D220D1BF6CCEF00A152D2 /* ImageCache.swift */; };
-		DC2D22251BF6D5B600A152D2 /* FlickrApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D22241BF6D5B600A152D2 /* FlickrApiTests.swift */; };
 		DC2D22261BF6D81D00A152D2 /* FlickrApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D220B1BF6C4D400A152D2 /* FlickrApi.swift */; };
 		DC2D22271BF6D89700A152D2 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D220D1BF6CCEF00A152D2 /* ImageCache.swift */; };
 		DC2D222A1BF7200400A152D2 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D22031BF6042900A152D2 /* Photo.swift */; };
 		DCC791E71BFB3B3600CA6AFC /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC029B181BFA0A8A0098189E /* URLImage.swift */; };
 		DCC791ED1BFC6AB600CA6AFC /* ViewControllerConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC791EC1BFC6AB600CA6AFC /* ViewControllerConvenience.swift */; };
+		DCC791F31BFC716A00CA6AFC /* FlickrApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC791F21BFC716A00CA6AFC /* FlickrApiTests.swift */; };
+		DCC791F41BFC716A00CA6AFC /* FlickrApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC791F21BFC716A00CA6AFC /* FlickrApiTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +67,8 @@
 		DC2D220D1BF6CCEF00A152D2 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		DC2D22131BF6D2C900A152D2 /* VirtualTouristTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualTouristTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2D22171BF6D2C900A152D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC2D22241BF6D5B600A152D2 /* FlickrApiTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlickrApiTests.swift; path = ../FlickrApiTests.swift; sourceTree = "<group>"; };
 		DCC791EC1BFC6AB600CA6AFC /* ViewControllerConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerConvenience.swift; sourceTree = "<group>"; };
+		DCC791F21BFC716A00CA6AFC /* FlickrApiTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrApiTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +163,7 @@
 		DC2D22141BF6D2C900A152D2 /* VirtualTouristTests */ = {
 			isa = PBXGroup;
 			children = (
-				DC2D22241BF6D5B600A152D2 /* FlickrApiTests.swift */,
+				DCC791F21BFC716A00CA6AFC /* FlickrApiTests.swift */,
 				DC2D22171BF6D2C900A152D2 /* Info.plist */,
 			);
 			path = VirtualTouristTests;
@@ -307,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC791F31BFC716A00CA6AFC /* FlickrApiTests.swift in Sources */,
 				DC2D220E1BF6CCEF00A152D2 /* ImageCache.swift in Sources */,
 				DC2D22041BF6042900A152D2 /* Photo.swift in Sources */,
 				DC2D22081BF6242D00A152D2 /* MapViewConvenience.swift in Sources */,
@@ -328,12 +330,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC791F41BFC716A00CA6AFC /* FlickrApiTests.swift in Sources */,
 				DC029B1C1BFAB5660098189E /* Pin.swift in Sources */,
 				DCC791E71BFB3B3600CA6AFC /* URLImage.swift in Sources */,
 				DC2D222A1BF7200400A152D2 /* Photo.swift in Sources */,
 				DC029B241BFACF950098189E /* CoreDataStackManager.swift in Sources */,
 				DC2D22271BF6D89700A152D2 /* ImageCache.swift in Sources */,
-				DC2D22251BF6D5B600A152D2 /* FlickrApiTests.swift in Sources */,
 				DC2D22261BF6D81D00A152D2 /* FlickrApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
