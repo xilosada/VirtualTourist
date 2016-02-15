@@ -6,7 +6,6 @@
 //  Copyright © 2015 XiLosada. All rights reserved.
 //
 
-import Foundation
 import CoreData
 
 private let SQLITE_FILE_NAME = "VirtualTourist.sqlite"
